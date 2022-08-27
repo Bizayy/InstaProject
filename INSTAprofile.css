@@ -1,0 +1,85 @@
+:root{
+    --search-color:rgb(70, 68, 68);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* this creates gap on two ends along the nav bar but we want the gap along the entire length of website. */
+    background-color: whitesmoke;
+    padding:10px 0;
+}
+#title{
+    display: flex;
+    align-items: center;
+     font-family: 'Dancing Script', cursive;
+}
+#title-container{
+    margin-right:7px;
+}
+#Instagram{
+    font-size: 30px ;
+    font-weight: bold;
+}
+input::placeholder{
+    font-size:17px;
+    /* color:rgb(70, 68, 68); */
+    color:var(--search-color);
+    text-transform: capitalize;
+    
+}
+#search-bar{
+    display: flex;
+    background-color:lightgrey;
+    padding:7px 14px;
+    border-radius: 7px;
+    width:18rem;
+}
+#magnifying-glass{
+    padding-right:10px;
+    color:var(--search-color);
+}
+/* #search-box-edit{
+    margin:4px;
+} */
+#navigation-route{
+    display: flex;
+    width:250px;
+    justify-content: space-between;
+    font-size:30px;/**/
+}
+#navigation-route>div>i{
+    font-size:25px;
+    /* margin:4px; */
+}
+input{
+    background-color: transparent;
+    border:none;
+}
+input:focus{
+    outline: none;
+    /* border:none; */
+}
+i:hover{
+    color:red;
+}
+#profile-photo{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background: url(./additional-files/images/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#blue-tick{
+    width:14px;
+}
+#three-dots{
+    width:20px;
+}
