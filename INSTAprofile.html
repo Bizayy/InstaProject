@@ -23,9 +23,12 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <div id="title">
         <div id="title-container">
           <p id="Instagram">Instagram</p>
@@ -43,23 +46,29 @@
         </div>
       </div>
       <div id="navigation-route">
-        <div><i class="fa-solid fa-house"></i></div>
-        <div><i class="fa-brands fa-facebook-messenger"></i></div>
-        <div><i class="fa-solid fa-square-plus"></i></div>
-        <div><i class="fa-solid fa-compass"></i></div>
-        <div><i class="fa-solid fa-heart"></i></div>
-        <div><i class="fa-solid fa-user"></i></div>
+        <div><img class="icons-on-nav"src="./additional-files/icons/home.png" alt=""></div>
+        <div><img class="icons-on-nav" src="./additional-files/icons/messenger.png" alt=""></div>
+        <div><img class="icons-on-nav" src="./additional-files/icons/create.png" alt=""></div>
+        <div><img class="icons-on-nav" src="./additional-files/icons/explore.png" alt=""></div>
+        <div><img class="icons-on-nav" src="./additional-files/icons/heart.png" alt=""></div>
+        <div><img id="user-profile-icon" src="./additional-files/images/chillies.png" alt=""></div>
       </div>
     </nav>
-    <div>
-      <div id="profile-photo">
-        
+    <div id="main-container">
+      <div id="left-div">
+        <div id="profile-photo"> 
+
+          <!-- we didnt give profile photo source here but gave it through the css in #profile-photo. -->
+  
         </div>
-    </div>
-      <div>
-        <div>
-          <div>
-            <span>mkbhd</span>
+        <div id="gradient-background">
+  
+        </div>
+      </div>
+      <div id="description-container">
+        <div id="div1-inside-description-container">
+          <div >
+            <span id="username-container">mkbhd</span>
           </div>
           <div>
             <img
@@ -68,28 +77,30 @@
               alt="Blue-tick"
             />
           </div>
-          <div>
-            <button>Message</button>
-            <button>button2</button>
-            <button>angle down</button>
-            <img
+          <div id="buttons-in-div1">
+            <button id="message-btn">Message</button>
+            <button id="followed-btn"><img class="profile-icons-img"  src="./additional-files/icons/followed.png" alt="follow-button"></button>
+            <button id="arrowDown-btn"><img class="profile-icons-img" 
+            src="./additional-files/icons/arrow-down.png" alt="arrow-down-button"></button>
+            <img 
               id="three-dots"
-              src="/Instagram project/icons/three-dots.png"
+              src="./additional-files/icons/three-dots.png"
               alt="Dots"
             />
           </div>
         </div>
-        <div>
-          <div>1,799 posts</div>
-          <div>3.8m followers</div>
-          <div>452 following</div>
+        <div id="div2-inside-description-container">
+          <div><span id="num-of-posts">1,799 </span>posts</div>
+          <div><span id="num-of-followers">3.8m </span>followers</div>
+          <div><span id="num-of-following">452</span> following</div>
         </div>
-        <div>
-          <p>Marques Brownlee</p>
-          <p>I promise I won't overdo the filters.</p>
-          <a href="masterclass.com/MKBHD">masterclass.com/MKBHD</a>
+        <div id="div3-inside-description-container">
+          <h4>Marques Brownlee</h4>
+          <p><span id="i-promise-css">I promise</span> I won't overdo the filters.</p>
+          <a href="masterclass.com/MKBHD"><span id="website-fontStyle">masterclass.com/MKBHD</span></a>
         </div>
       </div>
     </div>
+    
   </body>
 </html>
