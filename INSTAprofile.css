@@ -12,6 +12,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(250, 250, 250);
 }
 nav{
     display: flex;
@@ -20,8 +21,12 @@ nav{
     background-color: white;
     padding:10px 0;
 }
-#navbar{
+/* #navbar{
     border-bottom: 0.5px solid black;       
+} */
+hr{
+    width:1200px;
+    border: 0.5px solid rgb(56, 55, 55);
 }
 #title{
     display: flex;
@@ -77,6 +82,12 @@ input:focus{
 i:hover{
     color:red;
 }
+#navbar-arrow-down{
+    width:15px;
+    height:26px;
+    padding-top:12px;
+    /* font-weight: 900; */
+}
 #profile-photo{
     width:150px;
     height:150px;
@@ -85,12 +96,25 @@ i:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-left: 125px; */
+    position: absolute;
+    top:3px;
+    left:3px;
+    border:5px solid white;
 }
-#gradientbackground{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(199,249,28,0.9612044646960347) 50%, rgba(252,176,69,1) 100%); 
+#gradient-background{
+    height:156px;
+    width:156px;
+    background: rgb(212,219,27);
+    background: linear-gradient(52deg, rgba(212,219,27,1) 0%, rgba(249,28,73,0.9612044646960347) 50%, rgba(232,69,252,1) 100%); 
+    border-radius: 50%;
+    position: absolute;
 } 
+#left-div{
+    position:relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
 .profile-icons-img{
     width:17px;
     height:16px;
@@ -100,6 +124,7 @@ i:hover{
     padding:2px 5px;
     font-family: 'Roboto', sans-serif;
     font-weight :600;
+    font-size:15px;
 }
 #followed-btn{
     padding:2px 5px;
@@ -123,7 +148,7 @@ i:hover{
     width:62px;
 }
 #blue-tick{
-    width:14px;
+    width:20px;
     margin-top:6px;
     margin-right: 15px;
 }
@@ -146,8 +171,9 @@ width: 20px;
 {
     background-color: whitesmoke;
     display: flex;
-    gap:180px;
-    padding-top: 45px;    
+    gap:280px;
+    padding-top: 45px;
+    /* justify-content: space-between;     */
 }
 #div1-inside-description-container{
     display: flex;
@@ -182,4 +208,37 @@ font-family: 'Roboto', sans-serif;
 }
 #website-fontStyle{
     font-weight: bold;
+}
+#story-container{
+    margin-top:60px;
+    display:flex;
+    gap:50px;
+}
+.story-imgs{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    /* width:150px;
+    height:150px;
+    border-radius: 50%;
+    background: url(./additional-files/images/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:3px;
+    left:3px;
+    border:5px solid white; */
+    /* border:5px solid white; */
+    padding:2px;
+    border:1.5px solid rgb(199, 198, 198);
+}
+.story-titles{
+    margin-top:10px;
+    font-weight:500;
+}
+.story-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

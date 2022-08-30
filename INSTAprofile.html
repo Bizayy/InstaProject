@@ -33,9 +33,7 @@
         <div id="title-container">
           <p id="Instagram">Instagram</p>
         </div>
-        <div style="font-weight: light">
-          <i class="fa-solid fa-angle-down"></i>
-        </div>
+        <div><img id="navbar-arrow-down" src="./additional-files/icons/arrow-down.png" alt="arrow-down"></div>
       </div>
       <div id="search-bar">
         <div id="magnifying-glass">
@@ -54,17 +52,17 @@
         <div><img id="user-profile-icon" src="./additional-files/images/chillies.png" alt=""></div>
       </div>
     </nav>
+    <hr>
     <div id="main-container">
       <div id="left-div">
+        <div id="gradient-background"></div>
         <div id="profile-photo"> 
 
           <!-- we didnt give profile photo source here but gave it through the css in #profile-photo. -->
   
         </div>
-        <div id="gradient-background">
-  
-        </div>
       </div>
+      <!-- we defined gradient div before profile div, doing this overlaps the gradient div with profile div and we get the desired result -->
       <div id="description-container">
         <div id="div1-inside-description-container">
           <div >
@@ -101,6 +99,31 @@
         </div>
       </div>
     </div>
-    
+    <div id="story-container"> <!-- story div-->
+      <div class="story-box">
+        <div>
+          <img class="story-imgs" src="./additional-files/images/story1.jpg" alt="">
+          <p class="story-titles" >Blind Tests</p>
+        </div>
+      </div>
+      <div class="story-box">
+        <div>
+          <img class="story-imgs" src="./additional-files/images/story2.jpg" alt="">
+        </div>
+        <p class="story-titles"> BTS</p>
+      </div>
+      <div class="story-box">
+        <div>
+          <img class="story-imgs" src="./additional-files/images/story3.jpg" alt="">
+          <p class="story-titles" >Wallpapers</p>
+        </div>
+      </div>
+      <div class="story-box">
+        <div>
+          <img class="story-imgs" src="./additional-files/images/story4.jpg" alt="">
+        </div>
+        <p class="story-titles" >Frisbee</p>
+      </div>
+    </div>
   </body>
 </html>
