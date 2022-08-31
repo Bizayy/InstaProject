@@ -188,7 +188,6 @@ width: 20px;
 {
     background-color: whitesmoke;
     display: flex;
-    gap:280px;
     padding-top: 45px;
     /* justify-content: space-between;     */
 }
