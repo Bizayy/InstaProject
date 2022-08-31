@@ -8,17 +8,37 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 900px;
+    /* max-width: 900px;
     margin-left:auto;
-    margin-right:auto;
+    margin-right:auto; */
     font-family: 'Roboto', sans-serif;
     background-color: rgb(250, 250, 250);
 }
-nav{
+/* #top-container{
     display: flex;
     justify-content: space-between;
     /* this creates gap on two ends along the nav bar but we want the gap along the entire length of website. */
-    background-color: white;
+   /* background-color: white;
+    padding:10px 0; 
+} */
+#top-div{
+    border-bottom: 1px solid black;
+    background-color: rgb(250, 250, 250);
+}
+.widthclass{
+    background-color:whitesmoke;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+nav{
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: space-between;
+    /* this creates gap on two ends along the nav bar but we want the gap along the entire length of website. */
+    background-color: rgb(250, 250, 250);
     padding:10px 0;
 }
 /* #navbar{
@@ -84,6 +104,7 @@ i:hover{
     padding-top:12px;
     /* font-weight: 900; */
 }
+
 #profile-photo{
     width:150px;
     height:150px;
@@ -183,6 +204,7 @@ width: 20px;
     gap:10px;
 }
 #description-container{
+    width:45%;
     flex-wrap: wrap;
 }
 #username-container{
@@ -199,6 +221,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     gap:5px;
+    margin-bottom:20px;
 }
 #i-promise-css{
    font-weight:300;
@@ -233,7 +256,7 @@ font-family: 'Roboto', sans-serif;
     border:1.5px solid rgb(199, 198, 198);
 }
 .story-titles{
-    margin-top:10px;
+    /* margin-top:10px; */
     font-weight:500;
 }
 .story-box{

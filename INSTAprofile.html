@@ -28,101 +28,104 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <nav id="navbar">
-      <div id="title">
-        <div id="title-container">
-          <p id="Instagram">Instagram</p>
-        </div>
-        <div><img id="navbar-arrow-down" src="./additional-files/icons/arrow-down.png" alt="arrow-down"></div>
-      </div>
-      <div id="search-bar">
-        <div id="magnifying-glass">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <div id="search-box-edit">
-          <input type="text" placeholder="search" />
-        </div>
-      </div>
-      <div id="navigation-route">
-        <div><img class="icons-on-nav"src="./additional-files/icons/home.png" alt=""></div>
-        <div><img class="icons-on-nav" src="./additional-files/icons/messenger.png" alt=""></div>
-        <div><img class="icons-on-nav" src="./additional-files/icons/create.png" alt=""></div>
-        <div><img class="icons-on-nav" src="./additional-files/icons/explore.png" alt=""></div>
-        <div><img class="icons-on-nav" src="./additional-files/icons/heart.png" alt=""></div>
-        <div><img id="user-profile-icon" src="./additional-files/images/chillies.png" alt=""></div>
-      </div>
-    </nav>
-    <hr>
-    <div id="main-container">
-      <div id="left-div">
-        <div id="gradient-background"></div>
-        <div id="profile-photo"> 
-
-          <!-- we didnt give profile photo source here but gave it through the css in #profile-photo. -->
-  
-        </div>
-      </div>
-      <!-- we defined gradient div before profile div, doing this overlaps the gradient div with profile div and we get the desired result -->
-      <div id="description-container">
-        <div id="div1-inside-description-container">
-          <div >
-            <span id="username-container">mkbhd</span>
+    <div id="top-div">
+      <nav id="navbar">
+        <div id="title">
+          <div id="title-container">
+            <p id="Instagram">Instagram</p>
           </div>
-          <div>
-            <img
-              id="blue-tick"
-              src="./additional-files/icons/blue-tick.png"
-              alt="Blue-tick"
-            />
+          <div><img id="navbar-arrow-down" src="./additional-files/icons/arrow-down.png" alt="arrow-down"></div>
+        </div>
+        <div id="search-bar">
+          <div id="magnifying-glass">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </div>
-          <div id="buttons-in-div1">
-            <button id="message-btn">Message</button>
-            <button id="followed-btn"><img class="profile-icons-img"  src="./additional-files/icons/followed.png" alt="follow-button"></button>
-            <button id="arrowDown-btn"><img class="profile-icons-img" 
-            src="./additional-files/icons/arrow-down.png" alt="arrow-down-button"></button>
-            <img 
-              id="three-dots"
-              src="./additional-files/icons/three-dots.png"
-              alt="Dots"
-            />
+          <div id="search-box-edit">
+            <input type="text" placeholder="search" />
           </div>
         </div>
-        <div id="div2-inside-description-container">
-          <div><span id="num-of-posts">1,799 </span>posts</div>
-          <div><span id="num-of-followers">3.8m </span>followers</div>
-          <div><span id="num-of-following">452</span> following</div>
+        <div id="navigation-route">
+          <div><img class="icons-on-nav"src="./additional-files/icons/home.png" alt=""></div>
+          <div><img class="icons-on-nav" src="./additional-files/icons/messenger.png" alt=""></div>
+          <div><img class="icons-on-nav" src="./additional-files/icons/create.png" alt=""></div>
+          <div><img class="icons-on-nav" src="./additional-files/icons/explore.png" alt=""></div>
+          <div><img class="icons-on-nav" src="./additional-files/icons/heart.png" alt=""></div>
+          <div><img id="user-profile-icon" src="./additional-files/images/chillies.png" alt=""></div>
         </div>
-        <div id="div3-inside-description-container">
-          <h4>Marques Brownlee</h4>
-          <p id="i-promise-css">I promise,I won't overdo the filters.</p>
-          <a id="website-fontStyle" href="masterclass.com/MKBHD">masterclass.com/MKBHD</a>
-        </div>
-      </div>
+      </nav>
     </div>
-    <div id="story-container"> <!-- story div-->
-      <div class="story-box">
-        <div>
-          <img class="story-imgs" src="./additional-files/images/story1.jpg" alt="">
-          <p class="story-titles" >Blind Tests</p>
+    <div class="widthclass"><!--I created this class just to give the content, the max width of 900 px-->
+      <div id="main-container">
+        <div id="left-div">
+          <div id="gradient-background"></div>
+          <div id="profile-photo"> 
+  
+            <!-- we didnt give profile photo source here but gave it through the css in #profile-photo. -->
+    
+          </div>
+        </div>
+        <!-- we defined gradient div before profile div, doing this overlaps the gradient div with profile div and we get the desired result -->
+        <div id="description-container">
+          <div id="div1-inside-description-container">
+            <div >
+              <span id="username-container">mkbhd</span>
+            </div>
+            <div>
+              <img
+                id="blue-tick"
+                src="./additional-files/icons/blue-tick.png"
+                alt="Blue-tick"
+              />
+            </div>
+            <div id="buttons-in-div1">
+              <button id="message-btn">Message</button>
+              <button id="followed-btn"><img class="profile-icons-img"  src="./additional-files/icons/followed.png" alt="follow-button"></button>
+              <button id="arrowDown-btn"><img class="profile-icons-img" 
+              src="./additional-files/icons/arrow-down.png" alt="arrow-down-button"></button>
+              <img 
+                id="three-dots"
+                src="./additional-files/icons/three-dots.png"
+                alt="Dots"
+              />
+            </div>
+          </div>
+          <div id="div2-inside-description-container">
+            <div><span id="num-of-posts">1,799 </span>posts</div>
+            <div><span id="num-of-followers">3.8m </span>followers</div>
+            <div><span id="num-of-following">452</span> following</div>
+          </div>
+          <div id="div3-inside-description-container">
+            <h4>Marques Brownlee</h4>
+            <p id="i-promise-css">I promise,I won't overdo the filters.</p>
+            <a id="website-fontStyle" href="masterclass.com/MKBHD">masterclass.com/MKBHD</a>
+          </div>
         </div>
       </div>
-      <div class="story-box">
-        <div>
-          <img class="story-imgs" src="./additional-files/images/story2.jpg" alt="">
+      <div id="story-container"> <!-- story div-->
+        <div class="story-box">
+          <div>
+            <img class="story-imgs" src="./additional-files/images/story1.jpg" alt="">
+            <p class="story-titles" >Blind Tests</p>
+          </div>
         </div>
-        <p class="story-titles"> BTS</p>
-      </div>
-      <div class="story-box">
-        <div>
-          <img class="story-imgs" src="./additional-files/images/story3.jpg" alt="">
-          <p class="story-titles" >Wallpapers</p>
+        <div class="story-box">
+          <div>
+            <img class="story-imgs" src="./additional-files/images/story2.jpg" alt="">
+          </div>
+          <p class="story-titles"> BTS</p>
         </div>
-      </div>
-      <div class="story-box">
-        <div>
-          <img class="story-imgs" src="./additional-files/images/story4.jpg" alt="">
+        <div class="story-box">
+          <div>
+            <img class="story-imgs" src="./additional-files/images/story3.jpg" alt="">
+            <p class="story-titles" >Wallpapers</p>
+          </div>
         </div>
-        <p class="story-titles" >Frisbee</p>
+        <div class="story-box">
+          <div>
+            <img class="story-imgs" src="./additional-files/images/story4.jpg" alt="">
+          </div>
+          <p class="story-titles" >Frisbee</p>
+        </div>
       </div>
     </div>
   </body>
