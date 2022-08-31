@@ -124,13 +124,13 @@ i:hover{
     background: rgb(212,219,27);
     background: linear-gradient(52deg, rgba(212,219,27,1) 0%, rgba(249,28,73,0.9612044646960347) 50%, rgba(232,69,252,1) 100%); 
     border-radius: 50%;
-    position: absolute;
+    position: relative;
 } 
 #left-div{
-    position:relative;
+    width: 35%;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 .profile-icons-img{
     width:17px;
