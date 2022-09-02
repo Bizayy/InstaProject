@@ -304,11 +304,60 @@ font-family: 'Roboto', sans-serif;
 #tags{
     color: rgb(172, 169, 169);
 }
-#pics-div{
+#pics-div1{
     display: flex;
     justify-content: space-between;
 }
-.mkbhd-pics{
+#pics-div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#pic1{
     height:280px;
     width:280px;
+    background: url(./additional-files/images/mkbhd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic2{
+    height:280px;
+    width:280px;
+    background: url(./additional-files/images/rivian.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic3{
+    height:280px;
+    width:280px;
+    background: url(./additional-files/images/apple-event.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic4{
+    height:280px;
+    width:280px;
+    background: url(./additional-files/images/subscribers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic5{
+    height:280px;
+    width:280px;
+    background: url(./additional-files/images/dope-tech.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pic6{
+    height:280px;
+    width:280px;
+    background: url(./additional-files/images/roadster.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
