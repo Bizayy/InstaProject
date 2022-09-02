@@ -40,14 +40,13 @@ nav{
 #title{
     display: flex;
     align-items: center;
-     font-family: 'Dancing Script', cursive;
-}
-#title-container{
-    margin-right:7px;
+    font-family: 'Dancing Script', cursive;
 }
 #Instagram{
-    font-size: 30px ;
-    font-weight: bold;
+    padding-top:10px;
+    /* margin-top:4px; */
+    width:110px;
+    margin-right:7px;
 }
 input::placeholder{
     font-size:17px;
@@ -94,7 +93,8 @@ i:hover{
 #navbar-arrow-down{
     width:15px;
     height:26px;
-    padding-top:12px;
+    padding-top:10px;
+    margin-bottom: 15px;
     /* font-weight: 900; */
 }
 
@@ -281,22 +281,19 @@ font-family: 'Roboto', sans-serif;
     content:'';
     position:absolute;
     width:65px;
-    height:1px;
+    height:2px;
     background-color:black;
-    top:-1px;
+    top:-2px;
     left:320px;
 }
 #iconsforpics1{
-    width:10px;
-    height:10px;
+    width:12px;
+    height:12px;
 }
-#iconsforpics2{
-    width:11px;
-    height:11px;
-}
-#iconsforpics3{
-    width:15px;
-    height:15px;
+.iconsforpics{
+    width:12px;
+    height:12px;
+    filter: invert(42%) sepia(78%) saturate(0%) hue-rotate(67deg) brightness(104%) contrast(95%);
 }
 #reels{
     color: rgb(172, 169, 169);
