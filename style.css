@@ -13,13 +13,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(250, 250, 250);
 }
-/* #top-container{
-    display: flex;
-    justify-content: space-between;
-    /* this creates gap on two ends along the nav bar but we want the gap along the entire length of website. */
-   /* background-color: white;
-    padding:10px 0; 
-} */
+
 #top-div{
     border-bottom: 1px solid black;
     background-color: rgb(250, 250, 250);
